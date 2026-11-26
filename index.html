@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ADIOSS: panduan lari untuk pemula. Manfaat, pemanasan, teknik, program latihan, dan keselamatan.">
+<title>ADIOSS — Lari untuk Semua</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="pembuka" aria-hidden="true"><b>ADIOSS<i>.</i></b></div>
+<div class="progres" aria-hidden="true"><div id="progresIsi"></div></div>
+
+<header class="navbar">
+  <a href="#beranda" class="logo">ADIOSS<i>.</i></a>
+  <nav class="menu" id="menu">
+    <a href="#manfaat">Manfaat</a><a href="#pemanasan">Pemanasan</a><a href="#teknik">Teknik</a>
+    <a href="#program">Program</a><a href="#pace">Pace</a><a href="#aman">Keselamatan</a>
+  </nav>
+  <button class="toggle" id="toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+<section class="hero" id="beranda">
+  <div class="foto" data-parallax="0.35" style="background-image:linear-gradient(#0d0f0c99,#0d0f0ccc),url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1600&q=80')"></div>
+  <div class="garis-cepat" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="hero-isi">
+    <p class="label">PANDUAN LARI UNTUK SEMUA</p>
+    <h1><span>MULAI</span><span class="lime">PELAN.</span><span>TERUS</span><span class="oranye">BERLARI.</span></h1>
+    <p>Tidak perlu cepat atau jauh di hari pertama. Pelajari cara lari yang aman, bertahap, dan menyenangkan.</p>
+    <a href="#program" class="tombol">Mulai program</a>
+  </div>
+</section>
+
+<div class="pita" aria-hidden="true">
+  <div data-geser="-0.35">PEMANASAN / LARI SANTAI / PENDINGINAN / ISTIRAHAT / PEMANASAN / LARI SANTAI / PENDINGINAN / ISTIRAHAT</div>
+</div>
+
+<section class="bagian" id="manfaat">
+  <p class="label muncul">01 / MANFAAT</p>
+  <h2 class="muncul">KENAPA<br><em>HARUS LARI?</em></h2>
+  <div class="angka">
+    <div class="muncul"><strong data-hitung="150">150</strong><span>menit aktivitas intensitas sedang per minggu, minimal, untuk orang dewasa</span></div>
+    <div class="muncul"><strong data-hitung="75">75</strong><span>menit aktivitas berat seperti lari bisa menjadi pilihan setara</span></div>
+    <div class="muncul"><strong data-hitung="2">2</strong><span>hari latihan kekuatan otot per minggu sebagai pelengkap</span></div>
+  </div>
+  <p class="catatan muncul">Anjuran WHO. Manfaat di bawah berlaku untuk aktivitas fisik teratur, termasuk lari.</p>
+  <div class="kartu-grid">
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-8-5-8-11a4 4 0 0 1 8-2 4 4 0 0 1 8 2c0 6-8 11-8 11z"/></svg><h3>Jantung sehat</h3><p>Menurunkan risiko penyakit jantung dan tekanan darah tinggi.</p></article>
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z"/></svg><h3>Gula darah</h3><p>Menurunkan risiko diabetes tipe 2.</p></article>
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14q4 4 8 0M9 9v1M15 9v1"/></svg><h3>Pikiran</h3><p>Membantu mengurangi gejala cemas dan depresi.</p></article>
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11z"/></svg><h3>Tidur</h3><p>Mendukung tidur yang lebih berkualitas.</p></article>
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><h3>Otak</h3><p>Mendukung fungsi berpikir dan kesehatan otak.</p></article>
+    <article class="muncul"><svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M7 20h10M4 7h16M4 7l-2 6h4zM20 7l-2 6h4z"/></svg><h3>Komposisi tubuh</h3><p>Membantu menjaga kadar lemak tubuh yang sehat.</p></article>
+  </div>
+</section>
+
+<section class="lintasan" id="pemanasan">
+  <div class="lengket">
+    <div class="judul-lintasan">
+      <p class="label">02 / SATU SESI LARI</p>
+      <h2>DARI START <em>KE FINIS.</em></h2>
+    </div>
+    <div class="rel" id="rel">
+      <article><small>LANGKAH 1</small><h3>Jalan cepat</h3><strong>5 menit</strong><p>Naikkan detak jantung perlahan sebelum berlari.</p></article>
+      <article><small>LANGKAH 2</small><h3>Pemanasan dinamis</h3><strong>3–5 menit</strong><p>Ayunan kaki, putaran pergelangan, angkat lutut, dan lunges ringan.</p></article>
+      <article><small>LANGKAH 3</small><h3>Lari santai</h3><strong>Sesuai program</strong><p>Gunakan tes bicara: kamu masih bisa mengucapkan kalimat pendek.</p></article>
+      <article><small>LANGKAH 4</small><h3>Pendinginan</h3><strong>5 menit</strong><p>Kembali berjalan sampai napas dan detak jantung tenang.</p></article>
+      <article><small>LANGKAH 5</small><h3>Peregangan</h3><strong>5 menit</strong><p>Regangkan betis, paha depan, paha belakang, dan pinggul tanpa memaksa.</p></article>
+    </div>
+    <div class="jalur"><div id="pelari"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="31" cy="8" r="5"/><path d="M27 16 21 28M27 17l-9 1-4 7M27 18l5 7 8 1M21 28l9 6-3 11M21 28l-6 9-10 1"/></svg></div></div>
+  </div>
+</section>
+
+<section class="bagian gelap" id="teknik">
+  <p class="label muncul">03 / TEKNIK DASAR</p>
+  <h2 class="muncul">LARI DENGAN<br><em>NYAMAN.</em></h2>
+  <ol class="daftar">
+    <li class="muncul"><h3>Pandangan ke depan</h3><p>Lihat beberapa meter di depan, bukan ke ujung kaki.</p></li>
+    <li class="muncul"><h3>Bahu rileks</h3><p>Punggung tegak, tangan tidak mengepal kuat.</p></li>
+    <li class="muncul"><h3>Ayunan lengan</h3><p>Siku ditekuk, ayunkan ke depan dan belakang.</p></li>
+    <li class="muncul"><h3>Langkah ringan</h3><p>Hindari menjangkau terlalu jauh; biarkan kaki mendarat dekat di bawah tubuh.</p></li>
+    <li class="muncul"><h3>Napas teratur</h3><p>Bernapas lewat hidung dan mulut. Jika terengah-engah, pelankan atau jalan.</p></li>
+  </ol>
+</section>
+
+<section class="bagian" id="program">
+  <p class="label muncul">04 / PROGRAM PEMULA</p>
+  <h2 class="muncul">9 MINGGU<br><em>MENUJU 30 MENIT.</em></h2>
+  <p class="muncul teks">3 kali seminggu dengan hari istirahat di antaranya. Setiap sesi diawali dan diakhiri 5 menit jalan kaki. Boleh mengulang minggu yang terasa berat. Disusun mengikuti pola NHS Couch to 5K.</p>
+  <div class="minggu muncul" id="tombolMinggu"></div>
+  <div class="isi-minggu muncul" id="isiMinggu" aria-live="polite">Aktifkan JavaScript untuk melihat jadwal tiap minggu.</div>
+</section>
+
+<section class="bagian lime-bg" id="pace">
+  <p class="label muncul">05 / KALKULATOR</p>
+  <h2 class="muncul">HITUNG<br>PACE-MU.</h2>
+  <form class="kalkulator muncul" id="formPace">
+    <label>Jarak (km)<input id="jarak" type="number" min="0.1" step="0.01" value="3" required></label>
+    <label>Waktu (menit)<input id="waktu" type="number" min="1" step="0.1" value="24" required></label>
+    <output id="hasil">8:00 /km · 7,5 km/jam</output>
+  </form>
+  <p class="muncul teks">Pace adalah waktu per kilometer. Pakai untuk memantau diri sendiri, bukan membandingkan dengan orang lain.</p>
+</section>
+
+<section class="bagian" id="aman">
+  <p class="label muncul">06 / KESELAMATAN</p>
+  <h2 class="muncul">DENGARKAN<br><em>TUBUHMU.</em></h2>
+  <div class="dua">
+    <div class="kotak bahaya muncul"><h3>Berhenti dan cari bantuan medis jika</h3><ul><li>Nyeri atau tekanan di dada</li><li>Pusing berat atau hampir pingsan</li><li>Sesak napas yang tidak wajar</li><li>Nyeri tajam hingga mengubah cara melangkah (hentikan lari, periksakan bila menetap)</li></ul></div>
+    <div class="kotak muncul"><h3>Kebiasaan baik</h3><ul><li>Konsultasi dulu bila punya penyakit jantung, diabetes, tekanan darah tinggi, atau keluhan lain</li><li>Minum sesuai kebutuhan, terutama saat panas</li><li>Pilih pagi atau sore, hindari terik</li><li>Pakai pakaian terang di tempat gelap</li><li>Gunakan alas kaki yang nyaman</li></ul></div>
+  </div>
+  <h3 class="sub muncul">Pertanyaan umum</h3>
+  <details class="muncul"><summary>Bolehkah berjalan di tengah lari?</summary><p>Boleh. Selang-seling jalan dan lari adalah cara wajar untuk membangun daya tahan.</p></details>
+  <details class="muncul"><summary>Haruskah lari setiap hari?</summary><p>Untuk pemula, tidak. Beri jeda hari istirahat agar tubuh pulih.</p></details>
+  <details class="muncul"><summary>Apa yang dimakan sebelum lari?</summary><p>Camilan ringan sumber karbohidrat, misalnya pisang atau roti, 1–2 jam sebelumnya.</p></details>
+</section>
+
+<section class="ajakan" style="background-image:linear-gradient(#0d0f0caa,#0d0f0caa),url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1600&q=80')">
+  <h2 class="muncul">LANGKAH PERTAMA<br><em>HARI INI.</em></h2>
+  <a href="#program" class="tombol muncul">Lihat minggu 1</a>
+</section>
+</main>
+
+<footer>
+  <div class="footer-ajak">Lari pelan tetap lari.</div>
+  <div class="footer-grid">
+    <div>
+      <a href="#beranda" class="logo">ADIOSS<i>.</i></a>
+      <p>Panduan lari untuk pemula: mulai bertahap, tetap aman, dan nikmati prosesnya.</p>
+    </div>
+    <nav aria-label="Pelajari">
+      <h3>Pelajari</h3>
+      <a href="#manfaat">Manfaat lari</a>
+      <a href="#pemanasan">Satu sesi lari</a>
+      <a href="#teknik">Teknik dasar</a>
+    </nav>
+    <nav aria-label="Berlatih">
+      <h3>Berlatih</h3>
+      <a href="#program">Program 9 minggu</a>
+      <a href="#pace">Kalkulator pace</a>
+      <a href="#aman">Keselamatan</a>
+    </nav>
+    <nav aria-label="Sumber">
+      <h3>Sumber</h3>
+      <a href="https://www.who.int/News-Room/Fact-Sheets/Detail/Physical-Activity" target="_blank" rel="noopener">WHO: Aktivitas fisik</a>
+      <a href="https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/couch-to-5k-running-plan" target="_blank" rel="noopener">NHS: Couch to 5K</a>
+      <a href="https://www.nhlbi.nih.gov/health/heart/physical-activity/risks" target="_blank" rel="noopener">NHLBI: Jantung dan olahraga</a>
+    </nav>
+  </div>
+  <div class="footer-bawah">
+    <p>&copy; 2026 ADIOSS. Informasi umum, bukan pengganti saran tenaga medis.</p>
+    <a href="#beranda">Kembali ke atas</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
